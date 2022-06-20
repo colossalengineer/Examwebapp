@@ -1,0 +1,17 @@
+<!-- ?ID=Psf3h8LZr6OwJ1N7&Role=Dev -->
+<?php
+    include "C:/xampp/htdocs/GibJohn/includes/functions.php";
+    $session->CheckSession();
+    if(!$perms->HasPermByPermNameFromArray(array("H.Tutor","S.Tutor","M.Management")) ){
+        $header = 'Location: /Dashboard/';
+        header($header, true, 301);
+    }
+    if(isset($_GET["ID"])&&isset($_GET["Role"])){
+        $perms->AddStaffRoleToUser($_GET["ID"],$_GET["Role"]);
+        $audit->Addaudit("HTcbBYtmKtkbaUpk","bucWIBqacLZ9Co6g",$_GET["ID"],$_GET["Role"]);
+        $header = 'Location: /managment/ManageTutors/View/?ID='.$_GET["ID"];
+        header($header, true, 301);
+    }else{
+        $header = 'Location: /managment/ManageTutors/';
+        header($header, true, 301);
+    }

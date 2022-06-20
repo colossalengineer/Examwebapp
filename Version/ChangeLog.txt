@@ -1,0 +1,74 @@
+Version: 0.0.1
+Date:10/03/22
+Time:10:00
+
+Change:
+Database setup
+
+Version: 0.0.2
+Date:10/03/22
+Time:14:00
+
+Change:
+Login system implemented
+
+Version: 0.0.3
+Date:11/03/22
+Time:10:43
+
+Change:
+Audit Log Viewer working
+
+Version: 0.0.4
+Date:17/03/22
+Time:9:42
+
+Change:
+Creating Staff linked with audit system implemented.
+Fixed bugs with the devtools
+
+Version: 0.0.5
+Date:18/03/22
+Time:12:15
+
+Change:
+Completed Staff management section
+Completed Tutor management section
+Added items to Nav bar.
+Added items to Staff Dashboard.
+
+Version: 0.0.6
+Date:24/03/22
+Time:11:00
+
+Change:
+Added Parent area
+Added Student Viewer
+Added Student Subjects
+Added Student Subject Assigner
+Added Student Dashboard
+Added Game Dashboard
+
+Version: 0.0.7
+Date:31/03/22
+Time:10:30
+
+Change:
+Bug Fixes
+
+Version: 0.0.7
+Date:31/03/22
+Time:13:42
+
+Change:
+Added Form system
+Added Resource lookup for Students
+
+
+
+Version: 1.0.0
+Date:31/03/22
+Time:14:04
+
+Change:
+First Release Version
